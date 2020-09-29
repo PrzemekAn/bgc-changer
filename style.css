@@ -1,0 +1,21 @@
+.color-changer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 30px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    box-shadow: 0 0 4px 0 black;
+    border-radius: 25px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 1px white;
+    cursor: pointer;
+}
+
+.active {
+    transform: translate(-51%, -51%);
+}
